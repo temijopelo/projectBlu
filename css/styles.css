@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.top-container{
+    background: url(../img/Pattern_Light.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 970px;
+}
+
+/* Nabar  */
+.nav__link{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #556987;
+    padding-left: 2.5rem;
+}
+
+.nav__link:hover{
+    color: #333;
+}
+
+.btn-grey{
+    color: #556987;
+}
+
+.btn-blu{
+    color: #fff;
+    background: #0859C6;
+}
+
+.btn-blu:hover{
+    background: #5b8ed1;
+    color: #fff;
+}
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+
+/* content  */
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0 0;
+}
+
+.content-heading{
+    text-align: center;
+    width: 700px;
+    margin: 0 auto 20px;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.blu-text{
+    color: #0859C6;
+}
+
+.content-text{
+    text-align: center;
+    color: #727272;
+    width: 900px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 0 auto 20px;
+    padding: 0 70px;
+
+}
+
+.btn-blu-stretched{
+    background-color: #0859C6;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 50px;
+    padding: 0.7rem 2.3rem;
+}
+
+a.btn.btn-blu-stretched.btn-lg.text-align {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+}
+
+/* Content image  */
+.svg-iphone-background{
+    display: block;
+    margin: auto;
+}
+
+.iphone-img{
+    position: absolute;
+    top: 400px;
+    right: 500px;
+}
